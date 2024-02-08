@@ -10,7 +10,7 @@ pipeline {
       
       stage('helm install') {
             steps {
-                sh 'helm upgrade --install maria $WORKSPACE --values $WORKSPACE/values.yaml'
+                sh 'helm upgrade --install dbmaria $WORKSPACE --values $WORKSPACE/values.yaml'
             }
         }
       stage('pods status') {
