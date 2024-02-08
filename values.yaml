@@ -242,7 +242,7 @@ master:
     - ReadWriteOnce
     ## Persistent Volume size
     ##
-    size: 8Gi
+    size: 10Gi
 
   extraInitContainers: |
   # - name: do-something
